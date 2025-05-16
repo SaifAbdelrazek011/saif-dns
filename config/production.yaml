@@ -14,3 +14,68 @@ zones:
       - config
     targets:
       - cloudflare
+  zealzone.eu.org.:
+    sources:
+      - config
+    targets:
+      - cloudflare
+  abdelrazek.eu.org.:
+    sources:
+      - config
+    targets:
+      - cloudflare
+  misr.eu.org.:
+    sources:
+      - config
+    targets:
+      - cloudflare
+  saifabdelrazek.eu.org.:
+    sources:
+      - config
+    targets:
+      - cloudflare
+  saifurl.eu.org.:
+    sources:
+      - config
+    targets:
+      - cloudflare
+  directs.eu.org.:
+    sources:
+      - config
+    targets:
+      - cloudflare
+  flah.eu.org.:
+    sources:
+      - config
+    targets:
+      - cloudflare
+  mrurl.eu.org.:
+    sources:
+      - config
+    targets:
+      - cloudflare
+  safi.eu.org.:
+    sources:
+      - config
+    targets:
+      - cloudflare
+  sfak.eu.org.:
+    sources:
+      - config
+    targets:
+      - cloudflare
+  pains.eu.org.:
+    sources:
+      - config
+    targets:
+      - cloudflare
+  actice.eu.org.:
+    sources:
+      - config
+    targets:
+      - cloudflare
+  actvice.eu.org.:
+    sources:
+      - config
+    targets:
+      - cloudflare

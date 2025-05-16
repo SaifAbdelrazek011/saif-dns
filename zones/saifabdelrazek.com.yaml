@@ -17,6 +17,13 @@
     type: TXT
     value: "v=spf1 include:zohomail.com -all"
 
+_dmark:
+  octodns:
+    cloudflare:
+      auto-ttl: true
+  type: TXT
+  value: "v=DMARC1; p=reject; rua=mailto:saif@saifabdelrazek.com; ruf=mailto:saif@saifabdelrazek.com; sp=reject; adkim=r; aspf=r"
+
 www:
   octodns:
     cloudflare:
@@ -58,17 +65,3 @@ forkify:
       auto-ttl: true
   type: CNAME
   value: forkify-saif.netlify.app.
-
-nonprofit:
-  octodns:
-    cloudflare:
-      auto-ttl: true
-  type: CNAME
-  value: cname.vercel-dns.com.
-
-url:
-  octodns:
-    cloudflare:
-      auto-ttl: true
-  type: CNAME
-  value: 2xo1woe8.up.railway.app.
